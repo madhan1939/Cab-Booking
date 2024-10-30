@@ -1,0 +1,7 @@
+[2024-10-30 13:13:45,263] INFO Creating topic cab-location with configuration {} and initial partition assignment HashMap(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2024-10-30 13:13:45,282] INFO [Controller id=0, targetBrokerId=0] Node 0 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2024-10-30 13:13:45,286] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(cab-location-0) (kafka.server.ReplicaFetcherManager)
+[2024-10-30 13:13:45,288] INFO [LogLoader partition=cab-location-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2024-10-30 13:13:45,289] INFO Created log for partition cab-location-0 in /tmp/kafka-logs/cab-location-0 with properties {} (kafka.log.LogManager)
+[2024-10-30 13:13:45,289] INFO [Partition cab-location-0 broker=0] No checkpointed highwatermark is found for partition cab-location-0 (kafka.cluster.Partition)
+[2024-10-30 13:13:45,289] INFO [Partition cab-location-0 broker=0] Log loaded for partition cab-location-0 with initial high watermark 0 (kafka.cluster.Partition)
