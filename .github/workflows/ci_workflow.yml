@@ -19,5 +19,10 @@ jobs:
           distribution: 'temurin'  # Updated from 'adopt'
           java-version: '17'
 
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml
+      - name: Build cab-book-driver
+        working-directory: cab-book-driver
+        run: mvn -B package
+
+      - name: Build cab-book-user
+        working-directory: cab-book-user
+        run: mvn -B package
